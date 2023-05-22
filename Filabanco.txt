@@ -1,0 +1,35 @@
+Algoritmo Fila de Banco
+
+Declaração
+   Pessoa Comum:Inteiro;
+   Pessoa Preferencial:Inteiro;
+   Primeiro:Inteiro;
+   Ultimo:Inteiro;
+   Tamanho [10]:Inteiro;
+
+INICIO
+    Escreva ("Digite o número 1, se é uma Pessoa Comum");
+    Leia (Pessoa Comum);
+    Escreva ("Digite o número 2, se é uma Pessoa Preferencial");
+    leia (Pessoa Preferencial);
+    Se 1 = Pessoa Comum Então
+    Pessoa Comum <- Ultimo + 1;
+    Senão Se 2 = Pessoa Preferencial Então
+    Pessoa Preferencial <- Primeiro;
+    Fim - Se
+    Se Primeiro = 0 Então
+    Escreva ("A fila está vazia.");
+    Senão
+    Escreva ("Mostrar fila atual.");
+    Para i=0 De até 10 Passo 1 faça;
+    Tamanho[i] <- Tamanho[i] + 1;
+    Escreva ("Pessoa","Tamanho [1...10]");
+    Fim Para
+    Fim Se
+FIM
+    
+    
+        
+
+
+
